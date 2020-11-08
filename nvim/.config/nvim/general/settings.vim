@@ -42,8 +42,3 @@ au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm al
 
 " You can't stop me
 cmap w!! w !sudo tee %
-
-" nnoremap <F5> :bp<cr>
-" nnoremap <F6> :bn<cr>
-" nnoremap <leader>bd :bd<cr>
-" nnoremap tn :tabnew<cr>
