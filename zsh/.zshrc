@@ -45,7 +45,6 @@ ZSH_THEME_RANDOM_CANDIDATES=(
 	"fox"
 	"funky"
 	"half-life"
-    "intheloop"
 	"jonathan"
 	"lambda"
 	"linuxonly"
