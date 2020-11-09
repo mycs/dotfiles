@@ -7,3 +7,6 @@ source $HOME/.config/nvim/keys/mappings.vim
 " source $HOME/.config/nvim/themes/tender.vim
 
 source $HOME/.config/nvim/plug-config/coc.vim
+
+" Airline & airline themes
+source $HOME/.config/nvim/themes/airline.vim

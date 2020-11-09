@@ -20,6 +20,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'jacoborus/tender.vim'
     " Stable version of coc
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    " Airline & airline-theme
+    Plug 'vim-airline/vim-airline'
+    Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
 
