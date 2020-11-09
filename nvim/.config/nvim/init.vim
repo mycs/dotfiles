@@ -10,3 +10,6 @@ source $HOME/.config/nvim/plug-config/coc.vim
 
 " Airline & airline themes
 source $HOME/.config/nvim/themes/airline.vim
+
+" ranger
+source $HOME/.config/nvim/plug-config/rnvimr.vim

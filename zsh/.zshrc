@@ -187,7 +187,7 @@ alias ec='$EDITOR $HOME/.zshrc'
 alias sc='source $HOME/.zshrc'
 alias vim='$EDITOR'
 alias vi='$EDITOR'
-alias n='$EDITOR'
+alias n='nnn'
 alias v='$EDITOR'
 alias ips='curl https://ipecho.net/plain; echo'
 
