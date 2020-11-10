@@ -25,6 +25,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'vim-airline/vim-airline-themes'
     " ranger
     Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
+    " colorizer
+    Plug 'norcalli/nvim-colorizer.lua'
 
 call plug#end()
 

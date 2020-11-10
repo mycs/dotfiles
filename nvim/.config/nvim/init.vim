@@ -13,3 +13,6 @@ source $HOME/.config/nvim/themes/airline.vim
 
 " ranger
 source $HOME/.config/nvim/plug-config/rnvimr.vim
+
+" Colorizer
+lua require'plug-colorizer'
