@@ -193,3 +193,7 @@ alias ips='curl https://ipecho.net/plain; echo'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# FZF key bindings & completions
+source /usr/share/fzf/completion.zsh
+source /usr/share/fzf/key-bindings.zsh
