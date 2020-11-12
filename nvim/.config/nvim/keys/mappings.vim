@@ -9,6 +9,9 @@ let mapleader=" "
 " let localleader=" "
 nnoremap <Space> <Nop>
 
+" set leader key
+let g:mapleader = "\<Space>"
+
 " Better indenting
 vnoremap < <gv
 vnoremap > >gv
