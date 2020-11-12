@@ -75,7 +75,7 @@ xbanish &
 flameshot &
 
 # Wallpaper
-feh --bg-fill --randomize ~/Pics/wallpapers/* &
+feh --bg-fill --randomize ~/Pictures/Wallpapers/* &
 
 # Save your eyes
 #redshift & 

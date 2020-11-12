@@ -44,6 +44,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'junegunn/gv.vim'
     " Sneak
     Plug 'justinmk/vim-sneak'
+    " vim-commentary
+    Plug 'tpope/vim-commentary'
 
 call plug#end()
 

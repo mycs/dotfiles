@@ -30,6 +30,10 @@ source $HOME/.config/nvim/plug-config/start-screen.vim
 " sneak
 source $HOME/.config/nvim/plug-config/sneak.vim
 
+" vim-commentary
+source $HOME/.config/nvim/plug-config/vim-commentary.vim
+
+
 
 " Add paths to node and python here
 if !empty(glob("~/.config/nvim/paths.vim"))
