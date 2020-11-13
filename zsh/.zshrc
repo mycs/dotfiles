@@ -11,9 +11,6 @@ fi
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# Path to your oh-my-zsh installation.
-export ZSH="/home/user/.oh-my-zsh"
-
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -151,8 +148,6 @@ plugins=(
     zsh-z
 )
 
-source $ZSH/oh-my-zsh.sh
-
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -187,15 +182,12 @@ alias ec='$EDITOR $HOME/.zshrc'
 alias sc='source $HOME/.zshrc'
 alias vim='$EDITOR'
 alias vi='$EDITOR'
-alias n='nnn'
 alias v='$EDITOR'
+alias n='nnn'
 alias ips='curl https://ipecho.net/plain; echo'
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
 [ -f $HOME/.config/zsh/exports.zsh ] && source $HOME/.config/zsh/exports.zsh
-[ -f $HOME/.config/zsh/prompt.zsh ] && source $HOME/.config/zsh/prompt.zsh
+# [ -f $HOME/.config/zsh/prompt.zsh ] && source $HOME/.config/zsh/prompt.zsh
 [ -f $HOME/.config/zsh/aliases.zsh ] && source $HOME/.config/zsh/aliases.zsh
 [ -f $HOME/.config/zsh/functions.zsh ] && source $HOME/.config/zsh/functions.zsh
 [ -f $HOME/.config/zsh/broot.zsh ] && source $HOME/.config/zsh/broot.zsh
@@ -204,3 +196,17 @@ alias ips='curl https://ipecho.net/plain; echo'
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 [ -f /usr/share/fzf/completion.zsh ] && source /usr/share/fzf/completion.zsh
 [ -f /usr/share/fzf/key-bindings.zsh ] && source /usr/share/fzf/key-bindings.zsh
+
+# codi shell wrapper
+codi() {
+   local syntax="${1:-python}"
+   shift
+   nvim -c \
+     "let g:startify_disable_at_vimenter = 1 |\
+     set bt=nofile ls=0 noru nonu nornu |\
+     hi CodiVirtualText guifg=red
+     hi ColorColumn ctermbg=NONE |\
+     hi VertSplit ctermbg=NONE |\
+     hi NonText ctermfg=0 |\
+     Codi $syntax" "$@"
+}

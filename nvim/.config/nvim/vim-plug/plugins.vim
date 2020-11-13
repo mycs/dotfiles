@@ -18,8 +18,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'jiangmiao/auto-pairs'
     " onedark theme
     Plug 'joshdick/onedark.vim'
-    " tender theme
-    Plug 'jacoborus/tender.vim'
+    " papercolor theme
+    Plug 'NLKNguyen/papercolor-theme'
     " Stable version of coc
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Airline & airline-theme
@@ -46,6 +46,16 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'justinmk/vim-sneak'
     " vim-commentary
     Plug 'tpope/vim-commentary'
+    " vim-which-keys
+    Plug 'liuchengxu/vim-which-key'
+    " float term
+    Plug 'voldikss/vim-floaterm'
+    " vim-snippets
+    Plug 'honza/vim-snippets'
+    " vim-codi-with-virtual-text
+    Plug 'metakirby5/codi.vim'
+    " nnn
+    Plug 'mcchrish/nnn.vim'
 
 call plug#end()
 

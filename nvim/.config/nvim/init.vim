@@ -4,7 +4,9 @@ source $HOME/.config/nvim/keys/mappings.vim
 
 " Theme / Color scheme
 " source $HOME/.config/nvim/themes/onedark.vim
-" source $HOME/.config/nvim/themes/tender.vim
+source $HOME/.config/nvim/themes/papercolor.vim
+" source $HOME/.config/nvim/themes/afterglow.vim
+" source $HOME/.config/nvim/themes/space-vim-dark.vim
 
 source $HOME/.config/nvim/plug-config/coc.vim
 source $HOME/.config/nvim/plug-config/coc-extensions.vim
@@ -33,9 +35,22 @@ source $HOME/.config/nvim/plug-config/sneak.vim
 " vim-commentary
 source $HOME/.config/nvim/plug-config/vim-commentary.vim
 
+" which key
+source $HOME/.config/nvim/keys/which-key.vim
 
+" floterm
+source $HOME/.config/nvim/plug-config/floaterm.vim
+
+" codi
+source $HOME/.config/nvim/plug-config/codi.vim
+
+" nnn
+source $HOME/.config/nvim/plug-config/nnn.vim
 
 " Add paths to node and python here
 if !empty(glob("~/.config/nvim/paths.vim"))
   source $HOME/.config/nvim/paths.vim
 endif
+
+" Automatically source vimrc on save.
+autocmd! bufwritepost $MYVIMRC source $MYVIMRC
