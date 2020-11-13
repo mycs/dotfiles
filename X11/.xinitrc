@@ -60,7 +60,7 @@ xset -dpms
 xset s noblank
 
 # Compositor
-picom -bf &
+picom -b 
 
 # add local binaries
 export PATH=$HOME/.local/bin:/usr/local/bin:$PATH
