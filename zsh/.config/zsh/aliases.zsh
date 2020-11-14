@@ -38,3 +38,4 @@ alias sk="screenkey -s small --scr 1"
 alias skk="killall screenkey"
 alias vim="vim -u ~/.config/vim/vimrc"
 alias code="code-insiders"
+alias cheat='curl cheat.sh/$1'

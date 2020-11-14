@@ -1,0 +1,7 @@
+[user]
+	email = i420cc@gmail.com
+	name = Michael Y. C. Shih
+[pull]
+	rebase = false
+[pager]
+	branch = false
