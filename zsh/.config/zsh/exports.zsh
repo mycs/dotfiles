@@ -22,5 +22,6 @@ export MANWIDTH=999
 export PATH=/home/$USER/.gem/ruby/2.7.0:$PATH
 export PATH=$HOME/.local/bin:$PATH
 export PATH=/usr/lib/ruby/gems/2.7.0:$PATH
+export PATH=$HOME/.local/bin/statusbar:$PATH
 # eval "`fnm env --multi`"
 # eval "$(zoxide init zsh)"
