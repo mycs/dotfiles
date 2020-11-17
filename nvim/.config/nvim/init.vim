@@ -54,3 +54,6 @@ endif
 
 " Automatically source vimrc on save.
 autocmd! bufwritepost $MYVIMRC source $MYVIMRC
+
+" Automatically reload dwmblocks
+autocmd BufWritePost $HOME/.local/src/dwmblocks/config.h !cd $HOME/.local/src/dwmblocks/; sudo make clean install && { killall -q dwmblocks;setsid dwmblocks & }
