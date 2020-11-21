@@ -10,6 +10,8 @@ export TF_FORCE_GPU_ALLOW_GROWTH=true
  else
    export EDITOR='nvim'
  fi
+
+export LOCATION='Houli'
 #autoload -U colors && colors
 export CLICOLOR=1
 export FZF_DEFAULT_COMMAND='rg --files --hidden'

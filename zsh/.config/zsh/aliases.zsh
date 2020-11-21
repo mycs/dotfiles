@@ -13,7 +13,7 @@ alias \
 	ls="ls -hN --color=auto --group-directories-first" \
 	grep="grep --color=auto" \
 	diff="diff --color=auto" \
-	ccat="highlight --out-format=ansi"
+	# ccat="highlight --out-format=ansi --syntax=zsh"
 
 # These common commands are just too long! Abbreviate them.
 alias \
@@ -65,7 +65,7 @@ alias wallpapers="sxiv ~/Pictures/Wallpapers"
 alias list_systemctl="systemctl list-unit-files --state=enabled"
 alias kill_jupyter="killall jupyter-lab"
 # alias set_python_path="source set_python_path"
-alias cat="ccat"
+# alias cat="ccat"
 alias greeter="dm-tool switch-to-greeter"
 alias small_text="sed -i 's/size: 22.0/size: 15.0/g' ~/.config/alacritty/alacritty.yml"
 alias big_text="sed -i 's/size: 15.0/size: 22.0/g' ~/.config/alacritty/alacritty.yml"
