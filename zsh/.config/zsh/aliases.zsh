@@ -13,7 +13,7 @@ alias \
 	ls="ls -hN --color=auto --group-directories-first" \
 	grep="grep --color=auto" \
 	diff="diff --color=auto" \
-	# ccat="highlight --out-format=ansi --syntax=zsh"
+	# ccat="highlight -S ansi --out-format=ansi"
 
 # These common commands are just too long! Abbreviate them.
 alias \

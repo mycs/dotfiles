@@ -1,6 +1,20 @@
 # neofetch first
 neofetch
 
+# Lines configured by zsh-newuser-install
+HISTFILE=$HOME/.cache/histfile
+HISTSIZE=99999
+SAVEHIST=99999
+setopt autocd beep extendedglob nomatch notify
+bindkey -v
+# End of lines configured by zsh-newuser-install
+# The following lines were added by compinstall
+zstyle :compinstall filename '/home/user/.zshrc'
+
+autoload -Uz compinit
+compinit
+# End of lines added by compinstall
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
