@@ -58,6 +58,7 @@ alias nv="nvim ."
 #alias next="spotify next"
 #alias prev="spotify prev"
 alias gp='git add . && git commit -m "auto push" && git push'
+alias gs='git status'
 #alias blog_post='cd ~/Repos/blog && git add . && git commit -m "blog post" && git push && cd -'
 alias config='ranger ~/.config'
 alias repos='ranger ~/repositories'
