@@ -60,13 +60,13 @@ xset -dpms
 xset s noblank
 
 # Compositor
-picom -b 
+picom -b
 
-# add local binaries
-export PATH=$HOME/.local/bin:/usr/local/bin:$PATH
+# # add local binaries
+# export PATH=$HOME/.local/bin:/usr/local/bin:$PATH
 
 # Faster key repeat and delay
-xset r rate 210 40
+xset r rate 310 40
 
 # Hide Cursor when typing
 xbanish &
@@ -78,8 +78,8 @@ flameshot &
 feh --bg-fill --randomize ~/Pictures/Wallpapers/* &
 
 # Save your eyes
-#redshift & 
-redshift-gtk & 
+#redshift &
+redshift-gtk &
 
 # Wallpaper
 nitrogen --restore &
@@ -95,9 +95,9 @@ fcitx &
 unclutter &
 
 #export PATH=$PATH:~/.scripts
-export PATH=$PATH:~/.local/bin
+# export PATH=$PATH:~/.local/bin
 #export PATH=$HOME/.miniconda/envs/jupyter-lab/bin:$PATH
-export PATH=$PATH:$HOME/.scripts
+# export PATH=$PATH:$HOME/.scripts
 
 export EDITOR="nvim"
 export TERMINAL="st"
@@ -107,6 +107,9 @@ export BROWSER="brave"
 #while true; do
 #	dwm > /dev/null 2>&1
 #done
+
+# Remap Escape & Capslock
+remaps &
 
 # Execute DWM
 exec dwm

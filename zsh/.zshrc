@@ -99,7 +99,7 @@ ZSH_THEME_RANDOM_CANDIDATES=(
 )
 
 # Uncomment the following line to use case-sensitive completion.
-# CASE_SENSITIVE="true"
+CASE_SENSITIVE="true"
 
 # Uncomment the following line to use hyphen-insensitive completion.
 # Case-sensitive completion must be off. _ and - will be interchangeable.
@@ -191,14 +191,6 @@ export VISUAL='nvim'
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-alias ec='$EDITOR $HOME/.zshrc'
-alias sc='source $HOME/.zshrc'
-alias vim='$EDITOR'
-alias vi='$EDITOR'
-alias v='$EDITOR'
-alias n='nnn'
-alias ips='curl https://ipecho.net/plain; echo'
 
 [ -f $HOME/.config/zsh/exports.zsh ] && source $HOME/.config/zsh/exports.zsh
 # [ -f $HOME/.config/zsh/prompt.zsh ] && source $HOME/.config/zsh/prompt.zsh

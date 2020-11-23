@@ -1,3 +1,11 @@
+alias ec='$EDITOR $HOME/.zshrc'
+alias sc='source $HOME/.zshrc'
+alias vim='$EDITOR'
+alias vi='$EDITOR'
+alias v='$EDITOR'
+alias n='nnn'
+alias ips='curl https://ipecho.net/plain; echo'
+
 # Verbosity and settings that you pretty much just always are going to want.
 alias \
 	cp="cp -iv" \

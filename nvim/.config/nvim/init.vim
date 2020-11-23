@@ -3,7 +3,7 @@ source $HOME/.config/nvim/general/settings.vim
 source $HOME/.config/nvim/keys/mappings.vim
 
 " Theme / Color scheme
-" source $HOME/.config/nvim/themes/onedark.vim
+source $HOME/.config/nvim/themes/onedark.vim
 source $HOME/.config/nvim/themes/papercolor.vim
 " source $HOME/.config/nvim/themes/afterglow.vim
 " source $HOME/.config/nvim/themes/space-vim-dark.vim
@@ -54,6 +54,3 @@ endif
 
 " Automatically source vimrc on save.
 autocmd! bufwritepost $MYVIMRC source $MYVIMRC
-
-" Automatically reload dwmblocks
-autocmd BufWritePost $HOME/.local/src/dwmblocks/config.h !cd $HOME/.local/src/dwmblocks/; sudo make clean install && { killall -q dwmblocks;setsid dwmblocks & }
