@@ -88,3 +88,5 @@ alias skk="killall screenkey"
 alias code="code-insiders"
 alias cht="curl cheat.sh/$1"
 alias cmx='cmatrix -abs'
+alias sudo='sudo '
+alias sv='sudoedit '
