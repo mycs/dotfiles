@@ -38,7 +38,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " startify
     Plug 'mhinz/vim-startify'
     " Git integration
-    "Plug 'mhinz/vim-signify'
+    Plug 'mhinz/vim-signify'
     Plug 'tpope/vim-fugitive'
     Plug 'tpope/vim-rhubarb'
     Plug 'junegunn/gv.vim'
